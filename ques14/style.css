@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+
+:root{
+    --primarycolor : red;
+    --secondarycolor : green;
+    --font :'Roboto Mono', monospace;
+}
+
+h1{
+    color : var(--primarycolor);
+}
+
+h2{
+    color: var(--secondarycolor);
+    font-family: var(--font);
+}
+
+.btn-primary{
+    color : var(--primarycolor);
+}
+
+.btn-secondary{
+    color: var(--secondarycolor);
+}
